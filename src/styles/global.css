@@ -14,5 +14,6 @@
         font-size: 16px;
         box-sizing: border-box;
         @apply font-pretendard;
+        color: #1B1B1B;
     }
 }
