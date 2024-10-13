@@ -1,7 +1,12 @@
 module.exports = {
   root: true,
   plugins: ['@typescript-eslint', 'solid', 'jsx-a11y'],
-  extends: ['plugin:@typescript-eslint/recommended', 'plugin:import/recommended', 'plugin:prettier/recommended'],
+  extends: [
+    'plugin:@typescript-eslint/recommended',
+    'plugin:solid/recommended',
+    'plugin:import/recommended',
+    'plugin:prettier/recommended'
+  ],
   parser: '@typescript-eslint/parser',
   globals: {
     JSX: true
