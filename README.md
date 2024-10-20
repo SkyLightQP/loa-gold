@@ -1,34 +1,21 @@
-## Usage
+# LostArk Gold
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+![Logo](./logo.png)
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+> 로스트아크 레이드 획득 재화 및 재료 정보를 알려줍니다.
 
-```bash
-$ npm install # or pnpm install or yarn install
+## 시작하기
+
+```shell
+pnpm dev
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+```shell
+pnpm build
+```
 
-## Available Scripts
+## 라이센스
 
-In the project directory, you can run:
+프로젝트에서 사용되는 모든 리소스(이미지)의 권리는 `Smilegate RPG, Inc. Lostark`에서 보유하고 있습니다.
 
-### `npm run dev` or `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+그 외 소스코드는 `MIT License`를 따릅니다.
