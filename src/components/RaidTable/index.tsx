@@ -14,7 +14,7 @@ const RaidTable: Component<RaidTableProps> = (props) => {
         <tr>
           <th class="w-9 border-[3px] border-white bg-zinc-800 px-8 py-2 text-white">관문</th>
           <th class="border-[3px] border-white bg-zinc-800 text-white">재료</th>
-          <th class="w-40 border-[3px] border-white bg-zinc-800 text-white">골드</th>
+          <th class="w-40 border-[3px] border-white bg-zinc-800 text-white">재화</th>
         </tr>
       </thead>
       <tbody>
