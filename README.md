@@ -1,10 +1,16 @@
 # LostArk Gold
 
 <div align="center">
-<img src="./logo.png" alt="로고" width="630"/>
+<img src="docs/logo.png" alt="로고" width="630"/>
 </div>
 
 > 로스트아크 레이드 획득 재화 및 재료 정보를 알려줍니다.
+
+<br/>
+
+<div align="center">
+<img src="docs/preview.png" alt="미리보기" width="345" />
+</div>
 
 ## 시작하기
 
