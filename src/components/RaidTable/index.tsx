@@ -12,12 +12,12 @@ const RaidTable: Component<RaidTableProps> = (props) => {
     <table class="w-full">
       <thead class="h-8">
         <tr>
-          <th class="w-9 border-[3px] border-white bg-zinc-800 px-8 py-2 text-white">관문</th>
-          <th class="border-[3px] border-white bg-zinc-800 text-white">재료</th>
+          <th class="-w-9 border-[3px] border-white bg-zinc-800 px-8 py-2 text-white">관문</th>
+          <th class="w-48 border-[3px] border-white bg-zinc-800 text-white">재료</th>
           <th class="w-40 border-[3px] border-white bg-zinc-800 text-white">재화</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody class="text-sm md:text-base">
         <For each={Object.entries(RAID_DATA[props.raid]?.[props.level] ?? {})}>
           {([gate, data]) => (
             <tr>
@@ -25,7 +25,7 @@ const RaidTable: Component<RaidTableProps> = (props) => {
                 {gate}
                 {data.로테이션 && <p class="text-sm font-light text-gray-400">*2주</p>}
               </td>
-              <td class="space-y-1.5 border-[3px] border-white bg-zinc-100 px-5 py-3 text-left leading-4">
+              <td class="w-48 space-y-1.5 border-[3px] border-white bg-zinc-100 px-5 py-3 text-left leading-4">
                 <For each={data.재료}>
                   {(item, index) => (
                     <div>
