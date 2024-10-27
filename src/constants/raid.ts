@@ -486,10 +486,16 @@ export const RAID_DATA: Record<RaidName, Partial<Record<LevelName, Record<string
     },
     하드: {
       '1관문': {
-        재료: [['시련의 빛', '14']],
-        재료_더보기: [['시련의 빛', '14']],
-        재화: 1500,
-        재화_더보기: 700,
+        재료: [
+          ['시련의 빛', '14'],
+          ['관조의 빛무리', '1']
+        ],
+        재료_더보기: [
+          ['시련의 빛', '14'],
+          ['관조의 빛무리', '1']
+        ],
+        재화: 1000,
+        재화_더보기: 350,
         로테이션: false
       },
       '2관문': {
@@ -501,8 +507,8 @@ export const RAID_DATA: Record<RaidName, Partial<Record<LevelName, Record<string
           ['시련의 빛', '16'],
           ['관조의 빛무리', '1']
         ],
-        재화: 2000,
-        재화_더보기: 900,
+        재화: 1600,
+        재화_더보기: 500,
         로테이션: false
       },
       '3관문': {
@@ -514,8 +520,8 @@ export const RAID_DATA: Record<RaidName, Partial<Record<LevelName, Record<string
           ['시련의 빛', '20'],
           ['관조의 빛무리', '3']
         ],
-        재화: 3000,
-        재화_더보기: 1100,
+        재화: 2200,
+        재화_더보기: 700,
         로테이션: false
       }
     },
