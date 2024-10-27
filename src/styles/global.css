@@ -16,4 +16,8 @@
         @apply font-pretendard;
         color: #1B1B1B;
     }
+
+    :lang(ko) {
+        word-break: keep-all;
+    }
 }
