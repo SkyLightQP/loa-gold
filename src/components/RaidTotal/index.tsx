@@ -18,10 +18,10 @@ const RaidTotal: Component<RaidTotalProps> = (props) => {
         재화 {props.totalGold}골드 <span class="text-gray-400">({props.totalPlusGold}골드)</span>
         <For each={Object.entries(props.totalItem)}>
           {([item, count]) => (
-            <>
+            <span class="inline-block whitespace-nowrap">
               &nbsp;&middot; {item} {count}개&nbsp;
               <span class="text-gray-400">({props.totalPlusItem[item]}개)</span>
-            </>
+            </span>
           )}
         </For>
       </span>
