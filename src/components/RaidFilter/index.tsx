@@ -1,5 +1,5 @@
-import { For } from 'solid-js';
 import type { Component } from 'solid-js';
+import { For } from 'solid-js';
 import { LevelName, RAID_LEVEL_LIST, RAID_NAME_LIST, RaidName } from '../../constants/raid';
 import ListItem from '../ListItem';
 
