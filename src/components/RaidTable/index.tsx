@@ -21,7 +21,10 @@ const RaidTable: Component<RaidTableProps> = (props) => {
         <For each={Object.entries(RAID_DATA[props.raid]?.[props.level] ?? {})}>
           {([gate, data]) => (
             <tr>
-              <td class="w-9 border-[3px] border-white bg-zinc-100 px-5 py-3 text-center">{gate}</td>
+              <td class="w-9 border-[3px] border-white bg-zinc-100 px-5 py-3 text-center">
+                {gate}
+                {data.로테이션 && <p class="text-sm font-light text-gray-400">*2주</p>}
+              </td>
               <td class="space-y-1.5 border-[3px] border-white bg-zinc-100 px-5 py-3 text-left leading-4">
                 <For each={data.재료}>
                   {(item, index) => (
