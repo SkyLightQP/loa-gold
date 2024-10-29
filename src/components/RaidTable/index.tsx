@@ -9,7 +9,7 @@ interface RaidTableProps {
 
 const RaidTable: Component<RaidTableProps> = (props) => {
   return (
-    <table class="w-full">
+    <table class="mb-5 w-full">
       <thead class="h-8">
         <tr>
           <th class="-w-9 border-[3px] border-white bg-zinc-800 px-8 py-2 text-white">관문</th>
